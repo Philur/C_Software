@@ -9,3 +9,4 @@
 5. Installed and updated NotePad ++ ( npp.6.7.5.installer) with all options and default settings.
 6. Added slave (build_windows_slave) node @jenkins.ldchome.org
 7. Created job (build_test_on_windows_slave) to test git nad build from slave
+8. Installed JAVA (jre-8u40-windows-i586)
