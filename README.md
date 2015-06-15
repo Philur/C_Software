@@ -24,10 +24,16 @@ Status = GitLab access - OK. Build VS - OK
 1. Undo of step 10-14 150612 because it is not needed when slave is on the same network
 2. Installed Jenkins Tools (copy folder "_Jenkins/Tools")(_Jenkins-Tools.zip)
 3. Installed Code Metrics (metrics.exe)
-3. Configured job to test Scan Task, Scan compiler errors, Unti Test, Code Coverage and Code Metrics.
+4. Installed WiX (wix39.exe)
+5. Configured job to test Scan Task, Scan compiler errors, installation package, Unti Test, Code Coverage and Code Metrics.
 
 Status
 GitLab access - OK.
-Build VS - OK.
-Tasks and Compiler errors - OK.
-UT, Code Coverage and Metrics - OK.
+Build VS and Installation package - OK.
+Tasks and Compiler errors - NT.
+UT, Code Coverage and Metrics - NT.
+
+TODO
+=========================================
+1. Fix copy of installation from slave to Test PC (test01_win7_slave) (maybe Copy Artifact plugin)
+2. 
