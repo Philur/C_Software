@@ -1,5 +1,12 @@
 # C_Software
 
+Status
+GitLab access - OK.
+Build VS and Installation package - OK.
+Tasks and Compiler errors - OK.
+UT, Code Coverage and Metrics - OK.
+Statistics - N/A.
+
 150612
 =========================================
 1. Installed Visual Studio Ultimate 2013 with Update 4 (vs_ultimate.exe) with all options and default settings.
@@ -27,13 +34,13 @@ Status = GitLab access - OK. Build VS - OK
 4. Installed WiX (wix39.exe)
 5. Configured job to test Scan Task, Scan compiler errors, installation package, Unti Test, Code Coverage and Code Metrics.
 
-Status
-GitLab access - OK.
-Build VS and Installation package - OK.
-Tasks and Compiler errors - NT.
-UT, Code Coverage and Metrics - NT.
+140623
+=========================================
+1. Moved SmartFocus jobs to build_windows_slave
+2. Moved Casco jobs to build_windows_slave
+
 
 TODO
 =========================================
 1. Fix copy of installation from slave to Test PC (test01_win7_slave) (maybe Copy Artifact plugin)
-2. 
+2. Fix Statistics for Casco
