@@ -5,7 +5,7 @@ GitLab access - OK.
 Build VS and Installation package - OK.
 Tasks and Compiler errors - OK.
 UT, Code Coverage and Metrics - OK.
-Statistics - N/A.
+Statistics - FxCop, StyleCop - NT.
 
 150612
 =========================================
@@ -24,9 +24,7 @@ Statistics - N/A.
 13. Created bat-file for starting jenkins slave
 14. Configured "ldchome" settings for Putty including ppk-file
 
-Status = GitLab access - OK. Build VS - OK
-
-140612
+150612
 =========================================
 1. Undo of step 10-14 150612 because it is not needed when slave is on the same network
 2. Installed Jenkins Tools (copy folder "_Jenkins/Tools")(_Jenkins-Tools.zip)
@@ -34,13 +32,19 @@ Status = GitLab access - OK. Build VS - OK
 4. Installed WiX (wix39.exe)
 5. Configured job to test Scan Task, Scan compiler errors, installation package, Unti Test, Code Coverage and Code Metrics.
 
-140623
+150623
 =========================================
 1. Moved SmartFocus jobs to build_windows_slave
 2. Moved Casco jobs to build_windows_slave
 
+150624
+=========================================
+1. Installed FxCop (WinSDK_FxCopSetup.exe)
+2. Installed StyleCop (StyleCop-4.7.49.0.msi)
+3. Fixed Statistics for SmartFocus (smartfocus & mv solution) - 2 jobs
 
 TODO
 =========================================
 1. Fix copy of installation from slave to Test PC (test01_win7_slave) (maybe Copy Artifact plugin)
 2. Fix Statistics for Casco
+3. Fix Statistics for SmartFocus (smartfocus & mv solution)
