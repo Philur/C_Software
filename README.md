@@ -5,7 +5,7 @@ GitLab access - OK.
 Build VS and Installation package - OK.
 Tasks and Compiler errors - OK.
 UT, Code Coverage and Metrics - OK.
-Statistics - FxCop, StyleCop - NT.
+Statistics - FxCop, StyleCop - Fail.
 
 150612
 =========================================
@@ -42,9 +42,9 @@ Statistics - FxCop, StyleCop - NT.
 1. Installed FxCop (WinSDK_FxCopSetup.exe)
 2. Installed StyleCop (StyleCop-4.7.49.0.msi)
 3. Fixed Statistics for SmartFocus (smartfocus & mv solution) - 2 jobs
+4. Activated Featurs on server - .NET Framework 3.5 Features.
 
 TODO
 =========================================
 1. Fix copy of installation from slave to Test PC (test01_win7_slave) (maybe Copy Artifact plugin)
 2. Fix Statistics for Casco
-3. Fix Statistics for SmartFocus (smartfocus & mv solution)
